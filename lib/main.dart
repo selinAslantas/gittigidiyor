@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gitti_gidiyor/ui/homePage.dart';
+import 'package:gitti_gidiyor/ui/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Home(),
     );
   }
 }
